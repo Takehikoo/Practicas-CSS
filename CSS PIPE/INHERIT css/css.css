@@ -1,0 +1,33 @@
+*{
+    background-color: #1D2A6B ;
+    margin: 10px 4%;
+    padding: 0;
+}
+.titulo_principal{
+    color: rgb(240, 240, 240);
+    padding: 50px;
+    float: left;
+    display: inline;
+    background-color: #4c527041;
+    text-align: center;
+    border: solid #a59d59;
+    border-radius: 10px;
+}
+.cajaroja{
+    color: white;
+    padding: 50px;
+    display: inline;
+    float: left;
+    border: solid #a59d59;
+    border-radius: 10px;
+    text-align: center;
+}
+.cajaazul{
+    display: inline;
+    float: left;
+    color: white;
+    padding: 50px;
+    border: solid #a59d59;
+    border-radius: 10px;
+    text-align: center;
+}

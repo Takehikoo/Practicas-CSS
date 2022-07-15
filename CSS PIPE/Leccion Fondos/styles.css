@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Caveat&family=Indie+Flower&family=Noto+Serif+JP&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+*::selection{
+   /* color: #f8471193;*/
+   color:#BDBDBD;
+}
+
+
+
+body{
+    background: fixed url(https://64.media.tumblr.com/23bcb479432ed8f9af70ddcba8045d7b/tumblr_plo3wefN0G1we9f2ro1_r1_1280.gifv)
+     repeat-x #9e6638;
+     background-repeat: no-repeat;  
+     background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+header{
+   border:2px solid rgb(0, 0, 0);
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b94f2e85;
+    
+}
+
+.div_tittle{
+    border: 2px solid #FF5722;
+    
+    
+}
+.first_tittle{
+    font-size: 40px;
+    color: #212121;
+
+}
+
+.div_menu{
+    border: 2px solid crimson;
+    list-style: none;
+    display: flex;
+    
+}
+.div_menu li{
+    padding: 10px;
+    
+}
+.div_menu li a:active,a:visited{
+    color: #D7CCC8;
+}
